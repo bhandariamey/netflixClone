@@ -1,0 +1,319 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    background-image: url('./Assets/Images/HeroImage.jpg');
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.layer{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.68;
+    position: absolute;
+}
+
+.navbar1{
+    position: absolute;
+    top: 10px;
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+}
+
+
+.right{
+    display: flex;
+    flex-direction: row;
+    padding: 13px 0px;
+    flex-wrap: wrap;
+}
+
+.english{
+    border-radius: 5px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-right: 20px;
+    border: 1px solid gray;
+}
+
+.signin{
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    width: 80px;
+    border: none
+}
+
+.getStarted{
+    position: absolute;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.firstHeading{
+    color: white;
+    font-size: 50px;
+    font-weight: 1000;
+    width: 100vw;
+    text-align: center;
+    margin: 0px 0px;
+}
+
+.secondHeading{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    width: 100vw;
+    text-align: center;
+    
+}
+
+.thirdHeading{
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    width: 100vw;
+    text-align: center;
+    margin: 0px 0px;
+}
+
+.input{
+    margin-top: 20px;
+    display: flex;
+    height: 50px;
+}
+
+.emailInput{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    width: 350px;
+    margin-right: 10px;
+}
+
+.getStartedBtn{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: black;
+    border-radius: 3px;
+}
+
+.getStartedBtn:hover, .signin:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.line{
+    margin: 0px;
+    height: 7px;
+    background-color: black;
+    opacity: 0.7;
+    width: 100vw;
+    border: none;
+}
+
+.enjoyOnTv{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 5% 0px;
+    height:600px
+}
+
+.tvText{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.primary{
+    font-size: 48px;
+    font-weight: 1000;
+    padding-left: 22%;
+
+}
+
+.secondary{
+    font-size: 23px;
+    flex-wrap: wrap;
+    padding-left: 22%;
+}
+
+.tvImage{
+    position: relative;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.tvImage img{
+    width: 500px;
+    z-index: 1;
+}
+
+.video{
+    position: absolute;
+    width: 50%;
+}
+
+.download{
+    height:600px;
+    width: 100vw;
+    position: relative;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.shows{
+    position: relative;
+    background-image: url('./Assets/Images/stranger-things.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.poster{
+    display: flex;
+    position: absolute;
+    border: 1px solid white;
+    align-items: center;
+    border-radius: 10px;
+    border-color: gray;
+    border-width: 0.2rem;
+    width: 20rem;
+    justify-content: space-evenly;
+    margin-top: 24rem;
+    background-color: black;
+    padding: 10px 0px;
+}
+
+.series_poster{
+    width: 4.5rem;
+
+}
+
+.seriesDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding-left: 1rem;
+}
+
+.title{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.downloading{
+    color: #0071eb;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+}
+
+.downloadIcon{
+    width: 3rem;
+    height: 3rem;
+
+}
+
+.text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.primary1{
+    line-height: normal;
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+.secondary1{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.accordianComponent{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0rem;
+}
+
+.FAQ{
+
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+.accordion{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+
+}
+
+.accordion-item{
+    margin-bottom: 1rem;
+    background-color: rgb(45, 45, 45) !important;
+    color: white !important;
+    font-size: 1.5rem;
+    border: 1px solid black !important;
+    border-radius: 0px !important;
+}
+
+.accordion button{
+    background-color: rgb(45, 45, 45) !important;
+}
+
+.accordion-button::after{
+    background-image: url('./Assets/Images/plus.svg') !important;
+}
+
+.headings{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
